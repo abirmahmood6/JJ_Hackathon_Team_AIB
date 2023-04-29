@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <!-- Load the latest version of TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+  <link href="webcam.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+  <div id="console"></div>
+  <div id="webcamScreen">
+    <!-- Add an image that we will use to test -->
+    <div id="webCameraOnly">
+      <video autoplay playsinline muted id="webcam" width="300" height="250"></video> <br>
+    </div>
+
+
+
+    <button id="Recycle">Add Recycle</button>
+    <button id="Garbage">Add Garbage</button>
+    <button id="Composte">Add Compost</button>
+  </div>
+
+
+  <!-- Load index.js after the content of the page -->
+  <script src="webcam.js"></script>
+</body>
+
+</html>

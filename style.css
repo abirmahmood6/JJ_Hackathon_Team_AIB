@@ -1,0 +1,214 @@
+html {
+  height: 100%;
+  width: 100%;
+  min-width: 600px;
+}
+
+body {
+  background-color: #FFA737;
+}
+
+.signup-right {
+  width: 50%;
+}
+
+.signup-left {
+  width: 50%;
+}
+.signup-container {
+  display: flex;
+  flex-direction:row;
+}
+
+#navbar {  /* add some nice fonts*/
+  background-color: #85BAA1;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  float: 10px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+
+#home-scenery {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home, #take-action, #webcam, #recycle {
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#home:hover, #take-action:hover, #webcam:hover, #recycle:hover {
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 6px;
+}
+
+.feature-images {
+  width: 1450px;
+  height: 300px;
+  background-color: #ebebeb;
+}
+
+#img1, #img2, #img3 {
+  margin: 10px;
+  margin-left: 100px;
+  margin-right: 120px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border: 2px;
+  border-radius: 20px;
+}
+
+
+
+#home-scenery img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+#home-scenery::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  mix-blend-mode: color;
+  z-index: 3;
+}
+
+
+#take-action-scenery {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#take-action-scenery img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+#take-action-scenery::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  mix-blend-mode: color;
+  z-index: 3;
+}
+
+
+
+#take-action-intro {
+  font-size: 30px;
+  font-family: Montserrat;
+  background-color: #ebebeb;
+  margin: 50px
+}
+
+
+
+
+
+
+#text {
+  position: relative;
+  color: white;
+  font-size: 150px;
+  z-index: 1;
+  padding-bottom: 70px;
+}
+
+#foliage {
+  z-index: 2;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+
+#Sun-mode-btn {
+color: white;
+ background-color: #676767;
+}
+
+
+.Sun-mode {
+background-color: white;
+color: black;
+
+}
+
+#logo {
+  margin-left: -40px;
+  margin-top: 7px;
+  width: 80px;
+  height: 40px;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+.signupFormStyle {
+  background-color:#CC7178;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.signup-container {
+  margin: 10px;
+}
+
+#recycleTitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+#recycleBackground {
+  background-color: rgba(245, 222, 179,0.9);
+}

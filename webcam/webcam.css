@@ -1,0 +1,20 @@
+#webcamScreen {
+  margin: 80px;
+
+}
+
+
+
+#webCameraOnly {
+  margin-bottom: 20px;
+
+}
+
+video {
+    border-radius: 5px;
+}
+
+
+button {
+  width: 100px;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EcoSorter</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body class="Sun-mode">
+  <div id="navbar">
+    <!-- Nav Bar -->
+    <img src="img/ECO.png" id="logo">
+    <ul> <a href="#home-scenery" id="home"> Home </a> </ul>
+    <ul> <a href="#take-action-scenery" id="take-action"> Take Action
+      </a> </ul>
+    <ul> <a href="webcam/webcam.html" id="webcam"> Webcam </a> </ul>
+    <ul> <a href="#recycleCenter" id="recycle"> Recycling Center </a> </ul>
+    <ul><button id="Sun-mode-btn">Sun Mode</button> </ul>
+  </div>
+
+
+  <div class="header-container">
+    <div id="home-scenery">
+      <!-- Below, the code is for the moving home scenery-->
+      <img src="img/bg.png" id="bg">
+      <img src="img/bird.png" id="bird">
+      <img src="img/foliage.png" id="foliage">
+      <img src="img/forest.png" id="forest">
+      <h2 id="text"> EcoSorter </h2>
+    </div>
+
+    <h3 style="font-family: monospace; font-size: 30px; text-align: center;"> Revolutionize your waste management with ease! <br> Sign petitions for recycling advocacy, locate the nearest recycling center, and use our webcam scanner to categorize items instantly.  Say goodbye to confusion and hello to sustainability. <br> Join us in the fight for a <label style="color:lightgreen" > Greener </label> future!"
+    </h3>
+    <div class="header-left">
+      <div class="feature-images">
+        <img src="img/webcamTestingPic.jpg" id="img1">
+        <img src="img/petition.png" id="img2">
+        <img src="img/recycleCenterImg.jpg" id="img3">
+      </div> <!-- div for the feature images-->
+    </div> <!-- div for the header-left-->
+
+    <div id="take-action-scenery">
+      <!-- Below, the code is for the moving home scenery-->
+      <img src="img/bird.png" id="aird">
+      <img src="img/bg2.png" id="aoliage">
+      <img src="img/bg.png" id="ag">
+    </div>
+
+    <h3 id="take-action-intro" style="text-align: center; border-radius: 5px; "> Join us today and be a part of the solution! By signing our petitions, you can make your
+      voice heard and support policies and programs that will help protect our planet and create a cleaner, healthier
+      future for generations to come.
+    </h3>
+
+
+
+    <!-- Sign-up form modal 1   -->
+    <div class="signupFormStyle">
+      <h3> <b> The Sustainable Waste Sorting Initiative </b> </h3>
+      <p> A petition encourages people to separate their trash into biodegradable, recyclable, and non-recyclable goods
+        to promote responsible waste management practices.</p>
+    </div>
+    <div class="signup-container">
+      <div class="signup-right" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign Up</h2>
+          <form id="signup-form" action="">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required> <br>
+            <label for="country"> Country:</label>
+            <input type="text" id="country" name="country" required> <br>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="sign-up-list" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign-up List</h2>
+          <ul id="sign-up-list"></ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Sign-up form modal 2   -->
+    <div class="signupFormStyle">
+      <h3> Waste Reduction Education</h3>
+      <p> Start a petition to encourage schools and universities to include waste reduction and sustainability education
+        in their curriculums, and to support community-based programs that promote waste reduction and recycling.</p>
+    </div>
+    <div class="signup-container">
+      <div class="signup-right" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign Up</h2>
+          <form id="signup-form2" action="">
+            <label for="name2">Name:</label>
+            <input type="text" id="name2" name="name2" required><br>
+
+            <label for="email2">Email:</label>
+            <input type="email" id="email2" name="email2" required> <br>
+            <label for="country2">Country:</label>
+            <input type="text" id="country2" name="country2" required> <br>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="sign-up-list2" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign-up List</h2>
+          <ul id="sign-up-list2"></ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Sign-up form modal 3   -->
+    <div class="signupFormStyle">
+      <h3> The Clean Earth Movement </h3>
+      <p> A petition was created with the goal of urging people to adopt eco-friendly behaviors in order to reduce waste
+        and safeguard the
+        environment.</p>
+    </div>
+    <div class="signup-container">
+      <div class="signup-right" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign Up</h2>
+          <form id="signup-form3" action="">
+            <label for="name3">Name:</label>
+            <input type="text" id="name3" name="name3" required><br>
+
+            <label for="email3">Email:</label>
+            <input type="email" id="email3" name="email3" required> <br>
+            <label for="country3">Country:</label>
+            <input type="text" id="country3" name="country3" required> <br>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="sign-up-list3" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign-up List</h2>
+          <ul id="sign-up-list3"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!--Brian-->
+    <div id="recycleBackground"> 
+    <h1 id="recycleTitle"> Recycling Center </h1>
+    <h2>Which Borough Do You Live In?</h2>
+    <ul>
+      <li><a href="#" onclick="showInfo('manhattan')">Manhattan</a></li>
+      <li><a href="#" onclick="showInfo('bronx')">Bronx</a></li>
+      <li><a href="#" onclick="showInfo('brooklyn')">Brooklyn</a></li>
+      <li><a href="#" onclick="showInfo('queens')">Queens</a></li>
+      <li><a href="#" onclick="showInfo('staten_island')">Staten Island</a></li>
+    </ul>
+
+
+    <div id="info" hidden>
+      <div id="manhattan-info" hidden>
+        <p>Manhattan has a list of recycling centers. Here are a couple: </p>
+        <li>4THBIN: 708 Third Avenue 6th Floor, New York, 10017</li>
+        <li>Cmc Recycling: 717 E 12th St #4970, New York, NY 10009</li>
+      </div>
+      <div id="bronx-info" hidden>
+        <p>The Bronx has a list of recycling centers. Here are a couple:</p>
+        <li>Paper Fibres Corp: 960 Bronx River Avenue, Bronx, NY 10473</li>
+        <li>Royal Waste Services, Inc: 891 East 135th street, Bronx, NY 10454</li>
+      </div>
+      <div id="brooklyn-info" hidden>
+        <p>Brooklyn has a list of recycling centers. Here are a couple:</p>
+        <li>Emerson Recycling Corp: 63-65 Emerson Place
+          , Brooklyn, NY 11205</li>
+        <li>US Recycling Inc: 141 6th Street Brooklyn, NY, 11215</li>
+      </div>
+      <div id="queens-info" hidden>
+        <p>Queens has a list of recycling centers. Here are a couple:</p>
+        <li>Commerical Recycling Technnology LLC: 57-01, Flushing venue Maspeth, NY, 11378</li>
+        <li>Empire State Cardboard Paper Recycling: 3 Railroad Place, Maspeth, NY, 11378</li>
+      </div>
+      <div id="staten_island-info" hidden>
+        <p>Staten Island has a list of recycling centers. Here are a couple:</p>
+        <li>J & J Recycling: 1641 Richmond Terrace, Staten Island, NY 10310</li>
+        <li>Modern Recycling Ltd: 24 Cottontail Ct, Staten Island, NY 10312</li>
+      </div>
+    </div>
+    </div>  <!-- div ending for recycle background-->
+
+<footer>
+  <p>© 2023 EcoSorter. All Rights Reserved.</p>
+</footer>
+    
+
+
+
+
+
+
+
+</body>
+</div> <!-- div for the header-container-->
+
+<script src="script.js"></script>
+<!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+<!-- Line below connects this html to Javascript -->
+<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
